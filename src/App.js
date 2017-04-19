@@ -30,7 +30,7 @@ export default class App extends Component {
           </div>
         </div>
         <div className="main-content">
-          <GifList />
+          <GifList data={this.state.gifs} />
         </div>
       </div>
     );
